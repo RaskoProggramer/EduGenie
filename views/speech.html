@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EduGenie - Speech to Text</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>EduGenie AI Tutor - Speech to Text</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="chat.html">Chat</a>
+      <a href="history.html">History</a>
+      <a href="imagetotext.html">Image to Text</a>
+    </nav>
+  </header>
+
+  <main>
+    <form id="speechForm">
+      <input type="file" id="audioFile" name="audioFile" accept="audio/wav, audio/flac, audio/mp3, audio/mpeg" />
+      <button type="submit">Upload and Transcribe</button>
+    </form>
+    <pre id="speechTextOutput"></pre>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
