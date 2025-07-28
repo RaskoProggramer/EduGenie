@@ -1,5 +1,5 @@
 EduGenie AI Tutor
-EduGenie is an AI-powered educational assistant that provides interactive chat tutoring, speech-to-text transcription, image-to-text OCR, and vision analysis. It stores user interactions in a database and offers a clean, multi-page frontend interface.
+EduGenie is an AI-powered educational assistant that provides interactive chat tutoring, speech-to-text transcription, image-to-text OCR. It stores user interactions in a database and offers a clean, multi-page frontend interface.
 
 Features
 AI Chatbot: Ask educational questions and get detailed AI-generated answers.
